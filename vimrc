@@ -111,6 +111,9 @@ nmap <C-down> <C-j>
 imap <C-up>   <C-k>
 imap <C-down> <C-j>
 
+" Unindent with <S-Tab>
+imap <S-Tab> <ESC>v<i
+
 " Highlight lines longer that 79 characters
 " http://stackoverflow.com/questions/235439/vim-80-column-layout-concerns
 highlight OverLength ctermbg=darkred ctermfg=white guibg=#FFD9D9
