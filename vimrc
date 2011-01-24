@@ -72,6 +72,13 @@ imap <C-tab> <ESC><C-tab>
 nmap <F2> :w<cr>
 imap <F2> <ESC><F2>a
 
+" Exit with <F10>
+nmap <F10> :qa<cr>
+imap <F10> <ESC><F10>
+" Force exit with <S-F10>
+nmap <S-F10> :qa!<cr>
+imap <S-F10> <ESC><S-F10>
+
 " вставка текущего времени и даты по F5
 "nmap <F5> "=strftime("%d-%m-%Y %H:%M:%S")"<CR>P
 "imap <F5> <C-R>=strftime("%d-%m-%Y %H:%M:%S")<CR>
@@ -101,10 +108,26 @@ set spell spelllang=en_us,ru
 highlight OverLength ctermbg=darkred ctermfg=white guibg=#FFD9D9
 match OverLength /\%80v.\+/
 
-" omnicppcomple.
+" omnicppcomplete.
+" http://vim.wikia.com/wiki/C%2B%2B_code_completion
+
+" configure tags - add additional tags here or comment out not-used ones
 filetype plugin on
-map <C-F12> :!ctags -f .tags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
-set tags=~/.vim/tags/stdtags,tags,.tags,../tags,../.tags
-autocmd InsertLeave * if pumvisible() == 0|pclose|endif
-" To update stdlib ctags:
-" cd /usr/include && ctags -f ~/.vim/stdtags -R --c++-kinds=+p --fields=+iaS --extra=+q .
+set tags+=~/.vim/tags/cpp
+
+" map <C-F12> :!ctags -f .tags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
+map <C-F12> :!ctags -f .tags -R --sort=yes --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
+set tags+=tags,.tags,../tags,../.tags
+
+" OmniCppComplete
+let OmniCpp_NamespaceSearch = 1
+let OmniCpp_GlobalScopeSearch = 1
+let OmniCpp_ShowAccess = 1
+let OmniCpp_ShowPrototypeInAbbr = 1 " show function parameters
+let OmniCpp_MayCompleteDot = 1 " autocomplete after .
+let OmniCpp_MayCompleteArrow = 1 " autocomplete after ->
+let OmniCpp_MayCompleteScope = 1 " autocomplete after ::
+let OmniCpp_DefaultNamespaces = ["std", "_GLIBCXX_STD"]
+" automatically open and close the popup menu / preview window
+au CursorMovedI,InsertLeave * if pumvisible() == 0|silent! pclose|endif
+set completeopt=menuone,menu,longest,preview
