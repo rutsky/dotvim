@@ -106,6 +106,11 @@ nmap <C-k> k<C-y>
 imap <C-j> <ESC><C-j>a
 imap <C-k> <ESC><C-k>a
 
+nmap <C-up>   <C-k>
+nmap <C-down> <C-j>
+imap <C-up>   <C-k>
+imap <C-down> <C-j>
+
 " Highlight lines longer that 79 characters
 " http://stackoverflow.com/questions/235439/vim-80-column-layout-concerns
 highlight OverLength ctermbg=darkred ctermfg=white guibg=#FFD9D9
