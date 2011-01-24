@@ -100,8 +100,11 @@ set spell spelllang=en_us,ru
 
 " Similar to ctrl+up/down in other editors.
 " TODO: not valid in first or last line!
-:nnoremap <C-j> j<C-e>
-:nnoremap <C-k> k<C-y>
+nmap <C-j> j<C-e>
+nmap <C-k> k<C-y>
+
+imap <C-j> <ESC><C-j>a
+imap <C-k> <ESC><C-k>a
 
 " Highlight lines longer that 79 characters
 " http://stackoverflow.com/questions/235439/vim-80-column-layout-concerns
