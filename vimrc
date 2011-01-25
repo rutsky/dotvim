@@ -112,7 +112,8 @@ imap <C-up>   <C-k>
 imap <C-down> <C-j>
 
 " Unindent with <S-Tab>
-imap <S-Tab> <ESC>v<i
+" Not needed - use <C-t>/<C-d>
+" imap <S-Tab> <ESC>v<i
 
 " Highlight lines longer that 79 characters
 " http://stackoverflow.com/questions/235439/vim-80-column-layout-concerns
