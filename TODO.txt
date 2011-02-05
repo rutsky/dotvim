@@ -5,3 +5,4 @@
  3. Hex editing in Vim: http://vim.wikia.com/wiki/Improved_hex_editing
  4. Smart spell checking for code (ignoring programing language statements, 
     etc)
+ 5. Test how secure is use of modeline.
