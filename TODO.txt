@@ -1,0 +1,7 @@
+ 1. Save cursor position in file after closing file.
+ 2. Tabs in python code (SConstruct).
+    Currently implemented with modeline:
+    # vim: set filetype=python ts=4 sw=4 et:
+ 3. Hex editing in Vim: http://vim.wikia.com/wiki/Improved_hex_editing
+ 4. Smart spell checking for code (ignoring programing language statements, 
+    etc)
