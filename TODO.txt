@@ -1,9 +1,11 @@
- 1. Save cursor position in file after closing file.
- 2. Tabs in python code (SConstruct).
+ 1. Tabs in python code (SConstruct).
     Currently implemented with modeline:
     # vim: set filetype=python ts=4 sw=4 et:
- 3. Hex editing in Vim: http://vim.wikia.com/wiki/Improved_hex_editing
- 4. Smart spell checking for code (ignoring programing language statements, 
+    Need to configure globally for all python files.
+ 2. Hex editing in Vim: http://vim.wikia.com/wiki/Improved_hex_editing
+ 3. Smart spell checking for code (ignoring programing language statements, 
     etc)
- 5. Test how secure is use of modeline.
+ 4. Test how secure is use of modeline.
     http://vim.wikia.com/wiki/Modeline_magic
+ 5. Disable autoindent on pasted code (even when pasted with <C-r>* in insert 
+    mode).
