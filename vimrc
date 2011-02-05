@@ -146,3 +146,8 @@ set completeopt=menuone,menu,longest,preview
 
 " Match angle brackets.
 :set matchpairs+=<:>
+
+" From Ubuntu's /etc/vim/vimrc
+" If using a dark background within the editing area and syntax highlighting
+" turn on this option as well
+set background=dark
