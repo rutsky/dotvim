@@ -6,3 +6,4 @@
  4. Smart spell checking for code (ignoring programing language statements, 
     etc)
  5. Test how secure is use of modeline.
+    http://vim.wikia.com/wiki/Modeline_magic
