@@ -96,7 +96,7 @@ nnoremap <silent> <F9> :NERDTreeToggle <CR>
 " Enable spell checking
 " http://www.smira.ru/2008/11/17/russian-vim-spell-checking/
 " To disable spell locally use `:setlocal nospell'.
-set spell spelllang=en_us,ru
+"set spell spelllang=en_us,ru
 
 " Similar to ctrl+up/down in other editors.
 " TODO: not valid in first or last line!
