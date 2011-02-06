@@ -7,5 +7,3 @@
     etc)
  4. Test how secure is use of modeline.
     http://vim.wikia.com/wiki/Modeline_magic
- 5. Disable autoindent on pasted code (even when pasted with <C-r>* in insert 
-    mode).
