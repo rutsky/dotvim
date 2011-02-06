@@ -7,3 +7,4 @@
     etc)
  4. Test how secure is use of modeline.
     http://vim.wikia.com/wiki/Modeline_magic
+ 5. Learn how to reformat blocks of code.
