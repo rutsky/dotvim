@@ -158,3 +158,8 @@ set background=dark
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 endif
+
+" http://vim.wikia.com/wiki/Toggle_auto-indenting_for_code_paste
+nnoremap <F3> :set invpaste paste?<CR>
+set pastetoggle=<F2>
+set showmode
