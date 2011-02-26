@@ -10,3 +10,5 @@
  5. Learn how to reformat blocks of code.
  6. Try conque plugin: <http://code.google.com/p/conque/>.
  7. Switch to english layout when entering normal mode.
+ 8. Try: autoclose, matchit, nerd commenter, snipmate, supertab, zencoding,
+    pathogen.
