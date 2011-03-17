@@ -10,6 +10,7 @@
   * Learn how to reformat blocks of code.
   * Try conque plugin: <http://code.google.com/p/conque/>.
   * Switch to english layout when entering normal mode.
+    (Try https://github.com/porqz/KeyboardLayoutSwitcher.)
   * Try: autoclose, matchit, nerd commenter, snipmate, supertab, zencoding,
     pathogen.
   * ~/.vim/.netrwhist --- what is this?
