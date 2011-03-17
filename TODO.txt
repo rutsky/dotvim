@@ -13,3 +13,5 @@
   * Try: autoclose, matchit, nerd commenter, snipmate, supertab, zencoding,
     pathogen.
   * ~/.vim/.netrwhist --- what is this?
+  * Sometimes when I paste some code with brackets and then undo pasting 
+    something from pasted text still remains.
