@@ -1,14 +1,15 @@
- 1. Tabs in python code (SConstruct).
+  * Tabs in python code (SConstruct).
     Currently implemented with modeline:
     # vim: set filetype=python ts=4 sw=4 et:
     Need to configure globally for all python files.
- 2. Hex editing in Vim: http://vim.wikia.com/wiki/Improved_hex_editing
- 3. Smart spell checking for code (ignoring programing language statements, 
+  * Hex editing in Vim: http://vim.wikia.com/wiki/Improved_hex_editing
+  * Smart spell checking for code (ignoring programing language statements, 
     etc)
- 4. Test how secure is use of modeline.
+  * Test how secure is use of modeline.
     http://vim.wikia.com/wiki/Modeline_magic
- 5. Learn how to reformat blocks of code.
- 6. Try conque plugin: <http://code.google.com/p/conque/>.
- 7. Switch to english layout when entering normal mode.
- 8. Try: autoclose, matchit, nerd commenter, snipmate, supertab, zencoding,
+  * Learn how to reformat blocks of code.
+  * Try conque plugin: <http://code.google.com/p/conque/>.
+  * Switch to english layout when entering normal mode.
+  * Try: autoclose, matchit, nerd commenter, snipmate, supertab, zencoding,
     pathogen.
+  * ~/.vim/.netrwhist --- what is this?
