@@ -163,3 +163,7 @@ endif
 nnoremap <F3> :set invpaste paste?<CR>
 set pastetoggle=<F2>
 set showmode
+
+" From <http://vim.wikia.com/wiki/Recover_from_accidental_Ctrl-U>
+inoremap <c-u> <c-g>u<c-u>
+inoremap <c-w> <c-g>u<c-w>
