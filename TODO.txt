@@ -16,3 +16,5 @@
   * ~/.vim/.netrwhist --- what is this?
   * Sometimes when I paste some code with brackets and then undo pasting 
     something from pasted text still remains.
+  * Try something like this:
+    <http://vim.wikia.com/wiki/Maximize_window_and_return_to_previous_split_structure>
