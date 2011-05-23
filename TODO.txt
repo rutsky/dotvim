@@ -18,3 +18,4 @@
     something from pasted text still remains.
   * Try something like this:
     <http://vim.wikia.com/wiki/Maximize_window_and_return_to_previous_split_structure>
+  * Read this: <http://habrahabr.ru/blogs/python/74128/>.
