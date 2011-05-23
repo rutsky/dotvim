@@ -58,8 +58,8 @@ set keymap=russian-jcukenwin
 set iminsert=0 " при вводе
 set imsearch=0 " при поиске
 " переключение раскладки по ctrl+l
-imap <C-l> <C-^>
-nmap <C-l> a<C-l><ESC>
+"imap <C-l> <C-^>
+"nmap <C-l> a<C-l><ESC>
 
 " управление вкладками
 " <C-tab> works only in GVim, in terminal `tab' is already <C-i>.
