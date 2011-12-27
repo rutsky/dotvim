@@ -174,3 +174,5 @@ autocmd FileType sh source ~/.vim/filetypes/bash.vim
 
 " Ignore case  when searching
 set ignorecase
+
+let AutoCloseOn = 0
