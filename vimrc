@@ -170,6 +170,7 @@ inoremap <c-w> <c-g>u<c-w>
 
 autocmd FileType cpp source ~/.vim/filetypes/cpp.vim
 autocmd FileType python source ~/.vim/filetypes/python.vim
+autocmd FileType sh source ~/.vim/filetypes/bash.vim
 
 " Ignore case  when searching
 set ignorecase
