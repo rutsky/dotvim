@@ -167,3 +167,10 @@ set showmode
 " From <http://vim.wikia.com/wiki/Recover_from_accidental_Ctrl-U>
 inoremap <c-u> <c-g>u<c-u>
 inoremap <c-w> <c-g>u<c-w>
+
+autocmd FileType cpp source ~/.vim/filetypes/cpp.vim
+autocmd FileType python source ~/.vim/filetypes/python.vim
+autocmd FileType sh source ~/.vim/filetypes/bash.vim
+
+" Ignore case  when searching
+set ignorecase
